@@ -46,6 +46,7 @@ function App() {
       <Button text="натисни мене" onClick = {handelClick} />
       <Input placeholder= {placeholderChange} value={text} onChange = {handelChange} />
       {showText && <p>Ви ввели: <strong>{showText}</strong></p>}
+      {showText && <p>Ви ввели: <strong>{showText}</strong></p>}
     </>
   )
 }
